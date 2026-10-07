@@ -1,16 +1,71 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+````markdown
+# React User List
 
-Currently, two official plugins are available:
+A simple React application that fetches user data from the JSONPlaceholder API and displays it in a table.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Fetches users using `fetch()`
+- Uses React `useState`
+- Uses React `useEffect`
+- Displays User ID
+- Displays Name
+- Displays Username
+- Displays Email
+- Loading state
+- Error handling
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- HTML
+- CSS
+- JSONPlaceholder API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## API Used
+
+JSONPlaceholder:
+
+https://jsonplaceholder.typicode.com/users
+
+## How to Run
+
+1. Clone the repository
+2. Open the project folder in VS Code
+3. Install dependencies:
+
+```bash
+npm install
+````
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the localhost URL shown in the terminal.
+
+## Output
+
+The application displays a table containing 10 users with their:
+
+* ID
+* Name
+* Username
+* Email
+
+````
+
+### Push the README
+
+After saving it as **`README.md`** in your project folder:
+
+```powershell
+git add README.md
+git commit -m "Add README"
+git push origin main
+````
+
